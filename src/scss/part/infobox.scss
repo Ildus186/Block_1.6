@@ -62,15 +62,15 @@
       font-family: 'TT Lakes';
       border: none;
       cursor: pointer;
-      background: url('/img/ArrowDown.svg') no-repeat 0% 0%;
+      background: url('../img/ArrowDown.svg') no-repeat 0% 0%;
     }
     .readall-btn--Up {
-      background: url('/img/ArrowUp.svg') no-repeat 0% 0%;
+      background: url('../img/ArrowUp.svg') no-repeat 0% 0%;
       width: 110px;
     }
   }
   .infobox__picture {
-    background-image: url('/img/photo.png');
+    background-image: url('../img/photo.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 1vw;
@@ -89,6 +89,6 @@
 }
 
 .readall-btn--Up {
-  background: url('/img/ArrowUp.svg') no-repeat 0% 0%;
+  background: url('../img/ArrowUp.svg') no-repeat 0% 0%;
   width: 110px;
 }

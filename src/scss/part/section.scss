@@ -77,7 +77,7 @@
       border: none;
       cursor: pointer;
       background-color: transparent;
-      background: url('/img/ArrowDown.svg') no-repeat 0% 0%;
+      background: url('../img/ArrowDown.svg') no-repeat 0% 0%;
     }
   }
 }
@@ -95,7 +95,7 @@
       border: 1px solid $sectionLinkBorder;
       border-radius: 6px;
       background-color: $priceItemListBG;
-      background-image: url('/img/ArrowInCircle.svg');
+      background-image: url('../img/ArrowInCircle.svg');
       background-repeat: no-repeat;
       width: 240px;
       @media (min-width: 768px) {
@@ -129,7 +129,7 @@
 }
 
 .showall-btn--Up {
-  background-image: url('/img/ArrowUp.svg');
+  background-image: url('../img/ArrowUp.svg');
   width: 110px;
 }
 

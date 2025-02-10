@@ -11,8 +11,8 @@ module.exports = {
   output: {
     // filename: './js/bundle.js'
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
-    publicPath: '/'
+    filename: 'bundle.js'
+    // publicPath: '/'
   },
 
   // Source maps для удобства отладки
