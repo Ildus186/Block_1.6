@@ -1,0 +1,94 @@
+.infobox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 15px;
+  @media (min-width: 768px) {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-right: 23px;
+    gap: 5px;
+  }
+  @media (min-width: 1120px) {
+    padding-right: 25px;
+  }
+  .infobox__description {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vw;
+    @media (min-width: 768px) {
+      gap: 13px;
+      padding-left: 24px;
+    }
+    @media (min-width: 1120px) {
+      margin-top: 10px;
+      padding-left: 34px;
+    }
+    .infobox__text {
+      overflow: hidden;
+      height: 90px;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.1px;
+      max-width: 500px;
+      padding-right: 15px;
+      margin-bottom: 10px;
+      @media (min-width: 768px) {
+        height: 130px;
+        width: 350px;
+        padding-right: 15px;
+        margin-bottom: 10px;
+      }
+      @media (min-width: 1120px) {
+        height: 120px;
+        width: 500px;
+        padding-right: 15px;
+        margin-bottom: 10px;
+        line-height: 1.4;
+      }
+    }
+    .infobox-text--all {
+      height: auto;
+    }
+    .infobox__button {
+      width: 160px;
+      display: block;
+      margin-left: 10px;
+      margin-bottom: 5px;
+      font-size: 1rem;
+      line-height: 24px;
+      font-family: 'TT Lakes';
+      border: none;
+      cursor: pointer;
+      background: url('/img/ArrowDown.svg') no-repeat 0% 0%;
+    }
+    .readall-btn--Up {
+      background: url('/img/ArrowUp.svg') no-repeat 0% 0%;
+      width: 110px;
+    }
+  }
+  .infobox__picture {
+    background-image: url('/img/photo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 1vw;
+    width: 99vw;
+    aspect-ratio: 320/176;
+    @media (min-width: 768px) {
+      min-width: 360px;
+      min-height: 208px;
+    }
+    @media (min-width: 1120px) {
+      background-size: contain;
+      width: 531.35px;
+      height: 307px;
+    }
+  }
+}
+
+.readall-btn--Up {
+  background: url('/img/ArrowUp.svg') no-repeat 0% 0%;
+  width: 110px;
+}

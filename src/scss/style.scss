@@ -1,0 +1,33 @@
+@import './part/vars.scss';
+@import '../fonts/font.scss';
+@import '../../node_modules/swiper/swiper-bundle.min';
+@import './part/sidebar.scss';
+@import './part/modal.scss';
+@import './part/header.scss';
+@import './part/headbox.scss';
+@import './part/menu.scss';
+@import './part/infobox.scss';
+@import './part/swiper.scss';
+@import './part/section-price.scss';
+@import './part/section.scss';
+@import './part/section-price.scss';
+@import './part/footer.scss';
+@import './part/pink-button.scss';
+
+body {
+  margin: 0;
+  font-family: 'TT Lakes';
+  background-color: $bodyBg;
+}
+
+@media (min-width: 1440px) {
+  .base {
+    margin-left: 320px;
+    width: 1120px;
+  }
+
+  .contain {
+    margin: 0 auto;
+    width: 1440px;
+  }
+}

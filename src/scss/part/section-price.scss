@@ -1,0 +1,281 @@
+.section-price {
+  margin-bottom: 40px;
+  .section-price__titlebox {
+    height: 56px;
+    margin-bottom: 20px;
+    border-top: 1px solid $sectionBorder;
+    background: linear-gradient(
+      -270deg,
+      rgb(248, 248, 248),
+      rgb(255, 255, 255) 98.614%
+    );
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    height: 78px;
+    @media (min-width: 768px) {
+      margin-bottom: 10px;
+      padding-left: 24px;
+    }
+    @media (min-width: 1120px) {
+      margin-bottom: 10px;
+      padding-left: 30px;
+    }
+    .section-title {
+      color: $sectionTitleText;
+      font-family: TT Lakes;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      text-align: left;
+      text-transform: uppercase;
+    }
+  }
+  @media (min-width: 768px) {
+    .section-price__price-box {
+      padding-left: 0;
+    }
+    .section-price__hidden {
+      @media (min-width: 768px) {
+        height: 40px;
+      }
+    }
+    .section-price__price-list {
+      @media (min-width: 768px) {
+        display: grid;
+        border-radius: 10px;
+        background-color: $priceItemListBG;
+        width: 94vw;
+        margin: 0 auto;
+      }
+      @media (min-width: 1120px) {
+        width: 1056px;
+      }
+    }
+  }
+  .section-price__price-info {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    max-width: 400px;
+    padding-left: 16px;
+    padding-right: 16px;
+    @media (min-width: 768px) {
+      width: 421px;
+      padding-left: 0px;
+      margin: 28px;
+    }
+    @media (min-width: 1120px) {
+      margin: 38px;
+    }
+  }
+  .section-price__business-offer-button {
+    background-color: transparent;
+    border: none;
+    background: url('/img/MoreArrow.svg') no-repeat;
+    background-position: 62% 110%;
+    width: 192px;
+    padding: 0;
+    font-family: inherit;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 16px;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    cursor: pointer;
+    @media (min-width: 768px) {
+      background-position: 100% 50%;
+      width: 316px;
+      margin-left: 28px;
+    }
+    @media (min-width: 1120px) {
+      margin-left: 38px;
+    }
+  }
+}
+
+.price-item {
+  width: 260px !important;
+  height: 200px;
+  border-radius: 6px;
+  background-color: $priceItemListBG;
+  box-sizing: border-box;
+  padding-left: 16px;
+  position: relative;
+  @media (min-width: 768px) {
+    width: 94vw !important;
+    height: 64px;
+    display: grid;
+    align-items: center;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    margin: 0 auto;
+  }
+  @media (min-width: 1120px) {
+    width: 1056px !important;
+  }
+  .price-item__firstbox {
+    @media (min-width: 768px) {
+      z-index: 0;
+      position: relative;
+      top: -50px;
+      background-color: transparent;
+      display: grid;
+      row-gap: 35px;
+      align-items: center;
+      grid-template-columns: 53% 14% 14% 17%;
+      grid-template-areas:
+        'title-name title-price title-time .'
+        'contain-name contain-price contain-time order-button';
+    }
+    .price-item__title {
+      font-size: 14px;
+      color: $priceItemTitle;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+    .price-item__contain {
+      font-size: 14px;
+      margin-top: 0;
+    }
+    .price-item__button {
+      position: absolute;
+      top: 77%;
+      left: 48%;
+    }
+    .title-name-1 {
+      @media (min-width: 768px) {
+        grid-area: title-name;
+        margin-bottom: 0;
+      }
+    }
+    .title-price-1 {
+      @media (min-width: 768px) {
+        grid-area: title-price;
+        margin-bottom: 0;
+      }
+    }
+    .title-time-1 {
+      @media (min-width: 768px) {
+        grid-area: title-time;
+        margin-bottom: 0;
+      }
+    }
+    .contain-name {
+      @media (min-width: 768px) {
+        grid-area: contain-name;
+        margin-bottom: 0;
+      }
+    }
+    .contain-price {
+      @media (min-width: 768px) {
+        grid-area: contain-price;
+        margin-bottom: 0;
+      }
+    }
+    .contain-time {
+      @media (min-width: 768px) {
+        grid-area: contain-time;
+        margin-bottom: 0;
+      }
+    }
+    .rectangle-button {
+      @media (min-width: 768px) {
+        grid-area: order-button;
+        position: static;
+        justify-self: end;
+      }
+    }
+  }
+  .price-item__title {
+    font-size: 14px;
+    color: $priceItemTitle;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+  .price-item__contain {
+    font-size: 14px;
+    margin-top: 0;
+  }
+  .price-item__button {
+    position: absolute;
+    top: 77%;
+    left: 48%;
+  }
+  .contain-name {
+    @media (min-width: 768px) {
+      grid-area: contain-name;
+      margin-bottom: 0;
+    }
+  }
+  .contain-price {
+    @media (min-width: 768px) {
+      grid-area: contain-price;
+      margin-bottom: 0;
+    }
+  }
+  .contain-time {
+    @media (min-width: 768px) {
+      grid-area: contain-time;
+      margin-bottom: 0;
+    }
+  }
+  .rectangle-button {
+    @media (min-width: 768px) {
+      grid-area: order-button;
+      position: static;
+      justify-self: end;
+    }
+  }
+  .title-name,
+  .title-price,
+  .title-time {
+    @media (min-width: 768px) {
+      display: none;
+    }
+  }
+}
+
+.rectangle-button {
+  display: block;
+  width: 119px;
+  height: 32px;
+  box-sizing: border-box;
+  border: none;
+  background-color: $sendorderBtnBG;
+  color: $sendorderBtnText;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 12px;
+  border-radius: 15px;
+  font-weight: 700;
+  letter-spacing: -0.15px;
+  padding: 7px 27px 5px 12px;
+  background-image: url('/img/Dropdown.svg');
+  background-repeat: no-repeat;
+  background-position: 85% 50%;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 0 2px 2px $btnShadow;
+  }
+}
+
+.item--hr {
+  grid-template-columns: 53% 14% 14% 17%;
+  grid-template-areas: 'contain-name contain-price contain-time order-button';
+  grid-template-rows: 64px;
+}
+
+.item--hr::before {
+  @media (min-width: 768px) {
+    content: '';
+    height: 1px;
+    width: 89vw;
+    background-color: $sectionDevider;
+    position: relative;
+    top: -64px;
+  }
+  @media (min-width: 1120px) {
+    width: 1008px;
+  }
+}

@@ -1,0 +1,138 @@
+.section {
+  margin-bottom: 13px;
+  @media (min-width: 1120px) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1120px;
+  }
+  &__titlebox {
+    border-top: 1px solid $sectionBorder;
+    background: linear-gradient(
+      -270deg,
+      rgb(248, 248, 248),
+      rgb(255, 255, 255) 98.614%
+    );
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    height: 78px;
+
+    @media (min-width: 768px) {
+      height: 56px;
+      padding-left: 24px;
+    }
+    @media (min-width: 768px) {
+      padding-left: 30px;
+    }
+    .section-title {
+      color: $sectionTitleText;
+      font-family: TT Lakes;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+      text-align: left;
+      text-transform: uppercase;
+    }
+  }
+
+  &__brand-service-box {
+    @media (min-width: 768px) {
+      overflow: hidden;
+      margin-top: 8px;
+      margin-bottom: 17px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 23px;
+      height: 185px;
+    }
+    @media (min-width: 1120px) {
+      padding-left: 30px;
+    }
+
+    .section__brand-service-list {
+      @media (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 17px;
+        list-style: none;
+        padding: 0;
+        column-gap: 2.66vw;
+      }
+      @media (min-width: 1120px) {
+        column-gap: 30px;
+      }
+    }
+  }
+
+  &__button {
+    display: none;
+    width: 160px;
+    @media (min-width: 768px) {
+      display: block;
+      margin-left: 25px;
+      font-size: 1rem;
+      line-height: 24px;
+      font-family: 'TT Lakes';
+      border: none;
+      cursor: pointer;
+      background-color: transparent;
+      background: url('/img/ArrowDown.svg') no-repeat 0% 0%;
+    }
+  }
+}
+
+.brand-service {
+  &__item {
+    @media (min-width: 768px) {
+      margin-right: 0 !important;
+      height: auto;
+    }
+
+    .brand-service__link {
+      position: relative;
+      display: block;
+      border: 1px solid $sectionLinkBorder;
+      border-radius: 6px;
+      background-color: $priceItemListBG;
+      background-image: url('/img/ArrowInCircle.svg');
+      background-repeat: no-repeat;
+      width: 240px;
+      @media (min-width: 768px) {
+        width: 29.26vw;
+      }
+      @media (min-width: 1120px) {
+        width: 240px;
+      }
+
+      .brand-service__image {
+        position: absolute;
+        margin-left: 16px;
+        transform: translateY(50%);
+        bottom: 50%;
+      }
+    }
+    .brand--link {
+      height: 72px;
+      background-position: 92% 50%;
+    }
+    .service--link {
+      height: 160px;
+      background-position: 90% 85%;
+      text-decoration: none;
+      letter-spacing: -0.2px;
+      color: $linkText;
+      padding: 16px 0 0 16px;
+      box-sizing: border-box;
+    }
+  }
+}
+
+.showall-btn--Up {
+  background-image: url('/img/ArrowUp.svg');
+  width: 110px;
+}
+
+.brandsbox--height-auto {
+  height: auto;
+}
