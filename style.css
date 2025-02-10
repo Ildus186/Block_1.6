@@ -867,7 +867,7 @@ button.swiper-pagination-bullet {
       font-weight: 700;
       letter-spacing: -0.15px;
       padding: 7px 27px 5px 12px;
-      background-image: url("/img/Dropdown.svg");
+      background-image: url(./static/Dropdown.svg);
       background-repeat: no-repeat;
       background-position: 85% 50%;
       cursor: pointer;
@@ -1014,7 +1014,7 @@ button.swiper-pagination-bullet {
         gap: 5px;
         flex-grow: 1; } }
     .headbox .headbox__repair .headbox__repair-button {
-      background: url("/img/repair.svg") no-repeat 100% 0%;
+      background: url(./static/repair.svg) no-repeat 100% 0%;
       border: none;
       width: 220px;
       height: 40px;
@@ -1031,7 +1031,7 @@ button.swiper-pagination-bullet {
         gap: 5px;
         flex-grow: 1; } }
     .headbox .headbox__checkstatus .headbox__checkstatus-button {
-      background: url("/img/checkstatus.svg") no-repeat 100% 0%;
+      background: url(./static/checkstatus.svg) no-repeat 100% 0%;
       border: none;
       width: 220px;
       height: 40px;
@@ -1167,12 +1167,12 @@ button.swiper-pagination-bullet {
       font-family: 'TT Lakes';
       border: none;
       cursor: pointer;
-      background: url("/img/ArrowDown.svg") no-repeat 0% 0%; }
+      background: url(./static/ArrowDown.svg) no-repeat 0% 0%; }
     .infobox .infobox__description .readall-btn--Up {
-      background: url("/img/ArrowUp.svg") no-repeat 0% 0%;
+      background: url(./static/ArrowUp.svg) no-repeat 0% 0%;
       width: 110px; }
   .infobox .infobox__picture {
-    background-image: url("/img/photo.png");
+    background-image: url(./static/photo.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 1vw;
@@ -1189,7 +1189,7 @@ button.swiper-pagination-bullet {
         height: 307px; } }
 
 .readall-btn--Up {
-  background: url("/img/ArrowUp.svg") no-repeat 0% 0%;
+  background: url(./static/ArrowUp.svg) no-repeat 0% 0%;
   width: 110px; }
 
 .box--gradient::before {
@@ -1298,7 +1298,7 @@ button.swiper-pagination-bullet {
   .section-price .section-price__business-offer-button {
     background-color: transparent;
     border: none;
-    background: url("/img/MoreArrow.svg") no-repeat;
+    background: url(./static/MoreArrow.svg) no-repeat;
     background-position: 62% 110%;
     width: 192px;
     padding: 0;
@@ -1440,7 +1440,7 @@ button.swiper-pagination-bullet {
   font-weight: 700;
   letter-spacing: -0.15px;
   padding: 7px 27px 5px 12px;
-  background-image: url("/img/Dropdown.svg");
+  background-image: url(./static/Dropdown.svg);
   background-repeat: no-repeat;
   background-position: 85% 50%;
   cursor: pointer; }
@@ -1533,7 +1533,7 @@ button.swiper-pagination-bullet {
         border: none;
         cursor: pointer;
         background-color: transparent;
-        background: url("/img/ArrowDown.svg") no-repeat 0% 0%; } }
+        background: url(./static/ArrowDown.svg) no-repeat 0% 0%; } }
 
 @media (min-width: 768px) {
   .brand-service__item {
@@ -1546,7 +1546,7 @@ button.swiper-pagination-bullet {
   border: 1px solid #eaeaea;
   border-radius: 6px;
   background-color: white;
-  background-image: url("/img/ArrowInCircle.svg");
+  background-image: url(./static/ArrowInCircle.svg);
   background-repeat: no-repeat;
   width: 240px; }
   @media (min-width: 768px) {
@@ -1575,7 +1575,7 @@ button.swiper-pagination-bullet {
   box-sizing: border-box; }
 
 .showall-btn--Up {
-  background-image: url("/img/ArrowUp.svg");
+  background-image: url(./static/ArrowUp.svg);
   width: 110px; }
 
 .brandsbox--height-auto {
@@ -1645,7 +1645,7 @@ button.swiper-pagination-bullet {
   .section-price .section-price__business-offer-button {
     background-color: transparent;
     border: none;
-    background: url("/img/MoreArrow.svg") no-repeat;
+    background: url(./static/MoreArrow.svg) no-repeat;
     background-position: 62% 110%;
     width: 192px;
     padding: 0;
@@ -1787,7 +1787,7 @@ button.swiper-pagination-bullet {
   font-weight: 700;
   letter-spacing: -0.15px;
   padding: 7px 27px 5px 12px;
-  background-image: url("/img/Dropdown.svg");
+  background-image: url(./static/Dropdown.svg);
   background-repeat: no-repeat;
   background-position: 85% 50%;
   cursor: pointer; }
@@ -1876,28 +1876,28 @@ button.swiper-pagination-bullet {
   transform: scale(1.2); }
 
 .burger--button {
-  background: url("/img/burger.svg") no-repeat 50% 50%; }
+  background: url(./static/burger.svg) no-repeat 50% 50%; }
 
 .back--button {
-  background: url("/img/back.svg") no-repeat 50% 50%; }
+  background: url(./static/back.svg) no-repeat 50% 50%; }
 
 .search--button {
-  background: url("/img/search.svg") no-repeat 50% 50%; }
+  background: url(./static/search.svg) no-repeat 50% 50%; }
 
 .phone--button {
-  background: url("/img/phone.svg") no-repeat 50% 50%; }
+  background: url(./static/phone.svg) no-repeat 50% 50%; }
 
 .massage--button {
-  background: url("/img/massage.svg") no-repeat 50% 50%; }
+  background: url(./static/massage.svg) no-repeat 50% 50%; }
 
 .profile--button {
-  background: url("/img/profile.svg") no-repeat 50% 50%; }
+  background: url(./static/profile.svg) no-repeat 50% 50%; }
 
 .repair--button {
-  background: url("/img/repair.svg") no-repeat 50% 50%; }
+  background: url(./static/repair.svg) no-repeat 50% 50%; }
 
 .checkstatus--button {
-  background: url("/img/checkstatus.svg") no-repeat 50% 50%; }
+  background: url(./static/checkstatus.svg) no-repeat 50% 50%; }
 
 body {
   margin: 0;
